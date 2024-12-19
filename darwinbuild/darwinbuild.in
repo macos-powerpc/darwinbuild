@@ -85,7 +85,7 @@ DIGEST=$DATADIR/digest
 COMMONFILE=$DATADIR/darwinbuild.common
 DARWINTRACE=$DATADIR/darwintrace.dylib
 DITTO=$DATADIR/ditto
-DEFAULTPLISTSITE=http://svn.macosforge.org/repository/darwinbuild/trunk/plists/
+DEFAULTPLISTSITE=http://macos-powerpc.org/darwinbuild/plists
 
 build=""
 depsbuild=""

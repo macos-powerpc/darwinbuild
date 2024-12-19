@@ -1,7 +1,7 @@
 // !$*UTF8*$!
 {
 	binary_sites = (
-		"http://src.macosforge.org/Roots/10A432/",
+		"http://macos-powerpc.org/darwinbuild/Roots/10A432",
 	);
 	build = 10A432;
 	darwin = "Darwin 10.0";
@@ -14766,7 +14766,7 @@
 		};
 	};
 	source_sites = (
-		"http://src.macosforge.org/Projects/",
-		"http://src.macosforge.org/Patches/",
+		"http://macos-powerpc.org/darwinbuild/Projects",
+		"http://macos-powerpc.org/darwinbuild/patches",
 	);
 }

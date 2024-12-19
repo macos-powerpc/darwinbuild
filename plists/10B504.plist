@@ -1,7 +1,7 @@
 // !$*UTF8*$!
 {
         binary_sites = (
-                "http://src.macosforge.org/Roots/10B504/",
+                "http://macos-powerpc.org/darwinbuild/Roots/10B504",
         );
 	build = 10B504;
 	darwin = "Darwin 10.0";
