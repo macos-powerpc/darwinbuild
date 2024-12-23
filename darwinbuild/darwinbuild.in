@@ -485,7 +485,7 @@ chmod 1777 "$BuildRoot/$vartmp"
 ### the BuildRoot prefix omitted because the chroot
 ### will make all paths relative to that point.
 ###
-REAL_SRCROOT="$BuildRoot/SourceCache/$projnam/$project"
+REAL_SRCROOT="$BuildRoot/SourceCache/$projnam/$projnam-$project"
 REAL_OBJROOT="$BuildRoot/$vartmp/$projnam/$project.obj"
 REAL_SYMROOT="$BuildRoot/$vartmp/$projnam/$project.sym"
 REAL_DSTROOT="$BuildRoot/$vartmp/$projnam/$project.root"
