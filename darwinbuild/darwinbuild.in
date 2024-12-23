@@ -515,7 +515,7 @@ if [ "$nosource" != "YES" ]; then
 	elif [ "$alias" != "" ]; then
 		tar xzf "$SourceCache/$alias-$version.tar.gz"
 		rmdir "$REAL_SRCROOT"
-		ln -fhs "$alias-$version" "$project"
+		ln -fhs "$alias-$alias-$version" "$projnam-$project"
 	else
 		tar xzf "$SourceCache/$filename"
 	fi
